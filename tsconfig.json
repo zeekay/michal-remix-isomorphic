@@ -5,13 +5,14 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "target": "ES2019",
+    "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
     },
